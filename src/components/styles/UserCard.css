@@ -1,0 +1,82 @@
+.card {
+  width: 100%;
+  max-width: 300px;
+  padding: 1.5em 1.2em;
+  border-radius: 0.5em;
+  border: 1px solid #aaa5;
+  transition: transfrom 200ms ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__title {
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+}
+
+.card__body {
+  display: grid;
+  gap: 0.5em;
+  margin-bottom: 1.2em;
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+
+.card__span {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 0.8em;
+  position: relative;
+  left: 1em;
+}
+
+.card__gift {
+  display: flex;
+  padding: 1.5em;
+  padding-left: 0;
+  gap: 0.5em;
+  padding-top: 0.2em;
+  align-items: center;
+}
+.card__gift__icon {
+  transform: scale(0.8);
+}
+
+.card__footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8em;
+}
+
+.card__btn {
+  width: 2em;
+  aspect-ratio: 1;
+  font-size: 1.2rem;
+  padding: 0.4em;
+  border-radius: 0.2em;
+}
+
+.card__btn__trash {
+  color: white;
+  background-color: #d85d5d;
+}
+
+.card__btn__edit {
+  color: #aaa;
+  border: 1px solid currentColor;
+}
+
+.card__btn:hover {
+  box-shadow: 0 0 0.4em #0004;
+  transition: box-shadow 100ms ease;
+}
+
+.icon__trash {
+  background-color: #d85d5d;
+}
